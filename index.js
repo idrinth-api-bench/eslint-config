@@ -8,7 +8,6 @@ const {
 
 const config = parse(readFileSync('.eslintrc.yml', 'utf8',),);
 
-delete config.root;
 delete config.env;
 delete config.ignorePatterns;
 

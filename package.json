@@ -4,7 +4,7 @@
   "description": "The organisation's standards",
   "main": "index.mjs",
   "license": "MIT",
-  "type": "module",
+  "type": "commonjs",
   "repository": {
     "type": "git",
     "url": "https://github.com/idrinth-api-bench/eslint-plugin.git"

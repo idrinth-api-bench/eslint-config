@@ -1,9 +1,9 @@
-import {
+const {
   parse,
-} from 'yaml';
-import {
+} = require('yaml');
+const {
   readFileSync,
-} from 'fs';
+} = require('fs');
 
 const config = parse(readFileSync('.eslintrc.yml', 'utf8',),);
 

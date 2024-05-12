@@ -2,7 +2,7 @@
   "name": "@idrinth-api-bench/eslint-plugin",
   "version": "1.0.0",
   "description": "The organisation's standards",
-  "main": "index.mjs",
+  "main": "index.js",
   "license": "MIT",
   "type": "commonjs",
   "repository": {

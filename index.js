@@ -10,7 +10,7 @@ const config = parse(readFileSync('.eslintrc.yml', 'utf8',),);
 delete config.root;
 delete config.env;
 
-export default {
+module.exports = {
   configs: {
     recommended: {
       ...config,

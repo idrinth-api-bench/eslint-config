@@ -18,8 +18,8 @@
   },
   "scripts": {
     "lint": "eslint --ext=.js .",
-    "commitlint-ci": "commit-lint --last",
-    "commitlint": "commit-lint --editor",
+    "commitlint-ci": "commitlint --last",
+    "commitlint": "commitlint --edit",
     "postinstall": "npm run simple-git-hooks",
     "simple-git-hooks": "simple-git-hooks"
   },

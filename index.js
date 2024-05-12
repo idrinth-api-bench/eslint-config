@@ -15,4 +15,8 @@ module.exports = {
   configs: {
     recommended: config,
   },
+  meta: {
+    name: '@idrinth-api-bench',
+    version: '1.0.0',
+  },
 };

@@ -1,0 +1,24 @@
+{
+  "name": "@idrinth-api-bench/eslint-plugin",
+  "version": "1.0.0",
+  "description": "The organisation's standards",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idrinth-api-bench/eslint-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/idrinth-api-bench/issues"
+  },
+  "scripts": {
+    "lint": "eslint --ext=.js ."
+  },
+  "dependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-json": "^3.1.0",
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "yaml": "^2.4.2"
+  }
+}

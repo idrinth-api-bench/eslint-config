@@ -14,7 +14,10 @@
   },
   "scripts": {
     "lint": "eslint --ext=.js .",
-    "postinstall": ""
+    "commitlint-ci": "commit-lint --last",
+    "commitlint": "commit-lint --editor",
+    "postinstall": "npm run simple-git-hooks",
+    "simple-git-hooks": "simple-git-hooks"
   },
   "dependencies": {
     "eslint": "^8.57.0",
@@ -23,7 +26,8 @@
     "yaml": "^2.4.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.3.0"
+    "@commitlint/cli": "^19.3.0",
+    "simple-git-hooks": "^2.11.1"
   },
   "engineStrict": true,
   "engines": {

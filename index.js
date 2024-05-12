@@ -14,7 +14,6 @@ module.exports = {
   configs: {
     recommended: {
       ...config,
-      name: '@idrinth-api-bench/recommended',
     },
   },
 };

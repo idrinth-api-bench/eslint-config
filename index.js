@@ -11,12 +11,4 @@ const config = parse(readFileSync('.eslintrc.yml', 'utf8',),);
 delete config.root;
 delete config.env;
 
-module.exports = {
-  configs: {
-    recommended: config,
-  },
-  meta: {
-    name: '@idrinth-api-bench',
-    version: '1.0.0',
-  },
-};
+module.exports = config;

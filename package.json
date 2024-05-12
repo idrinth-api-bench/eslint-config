@@ -12,6 +12,10 @@
   "bugs": {
     "url": "https://github.com/idrinth-api-bench/issues"
   },
+  "simple-git-hooks": {
+    "commit-msg": "npm run commitlint",
+    "pre-push": "npm run commitlint-ci"
+  },
   "scripts": {
     "lint": "eslint --ext=.js .",
     "commitlint-ci": "commit-lint --last",

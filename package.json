@@ -1,5 +1,5 @@
 {
-  "name": "@idrinth-api-bench/eslint-plugin",
+  "name": "@idrinth-api-bench/eslint-config",
   "version": "1.0.0",
   "description": "The organisation's standards",
   "main": "index.js",

@@ -11,4 +11,12 @@ const config = parse(readFileSync('.eslintrc.yml', 'utf8',),);
 delete config.root;
 delete config.env;
 
-module.exports = config;
+module.exports = {
+  configs: {
+    recommended: config,
+  },
+  meta: {
+    name: '@idrinth-api-bench/eslint-plugin',
+    version: '1.0.0',
+  },
+};

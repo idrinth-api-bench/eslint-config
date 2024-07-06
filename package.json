@@ -1,0 +1,40 @@
+{
+  "name": "@idrinth-api-bench/eslint-config",
+  "version": "1.0.0",
+  "description": "The organisation's standards",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idrinth-api-bench/eslint-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/idrinth-api-bench/issues"
+  },
+  "simple-git-hooks": {
+    "commit-msg": "npm run commitlint",
+    "pre-push": "npm run commitlint-ci"
+  },
+  "scripts": {
+    "lint": "eslint --ext=.js .",
+    "commitlint-ci": "commitlint --last",
+    "commitlint": "commitlint --edit",
+    "postinstall": "npm run simple-git-hooks",
+    "simple-git-hooks": "simple-git-hooks"
+  },
+  "dependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-json": "^3.1.0",
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "yaml": "^2.4.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "simple-git-hooks": "^2.11.1"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=20"
+  }
+}
